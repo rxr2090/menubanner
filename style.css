@@ -1,0 +1,71 @@
+.cell {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+  }
+.body
+display: flex;
+font-family: Helvedica;
+font-size: 22px;
+font-weight: bold;
+color: seashell;
+opacity: 0.9;
+z-index: 1;
+width: 100%;
+height: 80px;
+align-items: center;
+border-bottom: 1px solid seashell;
+background-color: black;
+top: 0;
+left: 0;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+    background-size: 100% 28%;
+    background-repeat: no-repeat;
+                }
+ul {
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;}
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+   }
+
+h2 {
+    font-size: 23px;
+    font-weight: 300;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+    background-size: 100% 70px;
+    color: white;
+}
+h3 {
+    font-size: 16px;
+    text-decoration: underline; /* change to hyperlink later */
+}
+
+h4 {
+    font-size: 32px;
+  }
+
+  p {
+      font-size: 14px;
+    }
+  div {
+    color: white;
+  }
+.footer {
+    text-align: left;
+    font-size: 11px;
+    background-color: gray
+}
+.nowrap {
+  white-space: nowrap;
+}
+
+a { color: white;
+font-size: 16px;
+}
